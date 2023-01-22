@@ -1,5 +1,6 @@
 {
     "name": "edwardalgorist/world-time",
+    "version": "1.0.0",
     "description": "A Laravel wrapper around WorldTime API",
     "type": "library",
     "license": "MIT",
