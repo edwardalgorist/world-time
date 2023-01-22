@@ -1,0 +1,40 @@
+{
+    "name": "edwardalgorist/world-time",
+    "description": "A Laravel wrapper around WorldTime API",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["laravel", "package", "world", "time", "worldtime", "api"],
+    "autoload": {
+        "psr-4": {
+            "EdwardAlgorist\\WorldTime\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0.2",
+        "illuminate/support": "^9.48"
+    },
+    "authors": [
+        {
+            "role": "Developer",
+            "name": "Edward Nyirenda Jr.",
+            "email": "edwardnyirendajr@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist",
+        "optimize-autoloader": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EdwardAlgorist\\WorldTime\\Providers\\WorldTimeServiceProvider"
+            ],
+            "aliases": {
+                "WorldTime" : "EdwardAlgorist\\WorldTime\\WorldTime"
+            }
+        }
+    }
+}
