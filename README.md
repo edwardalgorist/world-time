@@ -72,4 +72,4 @@ If you discover any security related issues, please email edwardnyirendajr@gmail
 - Edward Algorist
 
 License
-The MIT License (MIT). Please see [License File](https://google.com) for more information.
+The MIT License (MIT). Please see [License File](https://github.com/edwardalgorist/world-time/blob/main/LICENSE.md) for more information.
