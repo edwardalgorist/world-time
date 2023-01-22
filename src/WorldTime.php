@@ -96,7 +96,6 @@ class WorldTime
      * Make a request to the API
      *
      * @param string $path
-     * @param int $ttl
      * @return object|array
      */
     private function makeRequest(string $path): object|array
