@@ -62,6 +62,7 @@ The package throws exceptions for the following cases:
 - When an invalid area or location is provided to the `locations` and `time` methods
 - When an invalid IP is provided to the `timeForIP` method
 - When the API returns a non-200 status code
+
 You can catch these exceptions and handle them accordingly in your code.
 
 ## Security
